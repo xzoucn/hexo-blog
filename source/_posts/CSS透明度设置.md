@@ -2,7 +2,7 @@
 title: CSS透明度设置
 date: 2019-03-13 17:31:30
 tags: CSS
-categories: 样式表
+categories: CSS
 ---
 >.transparent_class {  
 &nbsp; &nbsp;&nbsp; &nbsp;filter:alpha(opacity=50);  
