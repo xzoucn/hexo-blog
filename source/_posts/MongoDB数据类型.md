@@ -5,6 +5,7 @@ tags: MongoDB
 categories: 数据库
 ---
 MongoDB通过BSON（Binary JSON）来描述和存放数据。BSON是一种可进行二进制序列化的，类JSON格式的文档对象。通过BSON，MongoDB可以方便地存储无模式（scheme）数据。
+
 |类型|编号|别名|说明|
 | ------ | ------ | ------ |------|
 |Double|	1|	“double”||	 

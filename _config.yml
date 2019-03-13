@@ -81,3 +81,31 @@ deploy:
   type: git
   repo: git@github.com:xzoucn/xzoucn.github.io.git
   branch: master
+
+#Overwrite theme config
+theme_config:
+  menu:
+    home: / || home
+    about: /about/ || user
+    tags: /tags/ || tags
+    categories: /categories/ || th
+    archives: /archives/ || archive
+    #schedule: /schedule/ || calendar
+    #sitemap: /sitemap.xml || sitemap
+    commonweal: /404/ || heartbeat
+  highlight_theme: night eighties
+  social:
+    GitHub: https://github.com/xzoucn
+  social_icons:
+    enable: true
+    GitHub: github
+  scheme: Pisces
+  #评论配置
+  disqus:
+    enable: true
+    shortname: xzoucn
+    count: true
+  #文章预览配置
+  auto_excerpt:
+    enable: true
+    length: 200
