@@ -2,6 +2,7 @@
 title: PHP 学习手记 - 字符串
 date: 2019-03-13 10:05:54
 tags: PHP
+categories: PHP
 ---
 初始化字符串主要有两种方式：
 >$myString = 'my text';
