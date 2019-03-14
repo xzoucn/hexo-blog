@@ -101,10 +101,11 @@ theme_config:
     commonweal: /404/ || heartbeat
   highlight_theme: night eighties
   social:
-    GitHub: https://github.com/xzoucn
+    GitHub: https://github.com/xzoucn || github
   social_icons:
     enable: true
-    GitHub: github
+    icons_only: false
+    transition: false
   scheme: Pisces
   #评论配置
   disqus:
