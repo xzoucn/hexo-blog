@@ -181,6 +181,6 @@ db.inventory.deleteOne( { status: "D" } ) //删除status是“D”的第一条�
 ```
 ###### 聚合 - 管道
 管道方式聚合时，多个聚合运算分布于管道上。每一步聚合运算完成后将结果交给下一步的聚合运算继续处理，以此类推。聚合运算的基本过程如下图所示。
-![聚合运算示意](https://upload-images.jianshu.io/upload_images/1204278-0587ecfea73db6f0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![聚合运算示意](aggregate.png)
 
 通过以上操作，我们看到可以通过Mongo Shell方便地对MongoDB进行日常维护操作。MongoDB的查询主要通过查询方法加上查询文档体来实现，这对于理解MongoDB第三方客户端的使用具有重要的指导意义。
