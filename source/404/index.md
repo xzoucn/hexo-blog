@@ -2,7 +2,6 @@
 title: 404
 date: 2019-03-13 22:24:54
 ---
-<!DOCTYPE HTML>
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>

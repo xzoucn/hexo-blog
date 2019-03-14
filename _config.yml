@@ -82,6 +82,12 @@ deploy:
   repo: git@github.com:xzoucn/xzoucn.github.io.git
   branch: master
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 #Overwrite theme config
 theme_config:
   menu:
@@ -109,3 +115,6 @@ theme_config:
   auto_excerpt:
     enable: true
     length: 200
+  # Local search
+  local_search:
+    enable: true
