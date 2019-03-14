@@ -119,3 +119,8 @@ theme_config:
   # Local search
   local_search:
     enable: true
+  reward:
+    enable: true
+    comment: 如果你觉得开心，请我喝杯咖啡 ：）
+    wechatpay: /images/wechatpay.png
+    alipay: /images/alipay.png
