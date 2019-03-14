@@ -124,3 +124,4 @@ theme_config:
     comment: 如果你觉得开心，请我喝杯咖啡 ：）
     wechatpay: /images/wechatpay.png
     alipay: /images/alipay.png
+  lazyload: true
